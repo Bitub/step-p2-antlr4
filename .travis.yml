@@ -1,6 +1,6 @@
 language: Java
 script:
-- mvn p2:run
+- mvn p2:site
 after_success:
 - test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && bash
   deploy.sh
