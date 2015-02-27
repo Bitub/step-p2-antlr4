@@ -1,0 +1,9 @@
+language: Java
+script:
+- mvn p2:run
+after_success:
+- test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && bash
+  deploy.sh
+env:
+  global:
+    secure: Cp7/gHMmO7WANBGReFn2Y2imbkwTSNV60rkmQlBsibB6GHDYkUZkESQPyYWeEDUwfPA1Hpc3pB35+F8SEAA+6C6faTk0J6y0BX1A/hBzZzl4zcbMD2ZdPg3hSD79cJpfxKRd/mvaPYBVu0aKhE7+ZP9+s3utzK0LZTNy5k4VINM=
