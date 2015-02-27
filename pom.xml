@@ -19,7 +19,7 @@
 					<execution>
 						<id>default-cli</id>
 						<configuration>
-							<destinationDirectory>${project.basedir}/target</destinationDirectory>
+							<destinationDirectory>${project.basedir}/target/4.5/</destinationDirectory>
 							<artifacts>
 								<artifact>
 									<id>org.antlr:antlr4-runtime:4.5</id>
