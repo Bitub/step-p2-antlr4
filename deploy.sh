@@ -14,7 +14,7 @@ git remote add upstream "https://$GH_TOKEN@github.com/Bitub/step-p2-antlr4.git"
 git fetch upstream
 git reset upstream/gh-pages
 
-echo "bitub.github.io/step-p2-antlr4" > CNAME
+echo "bitub.de" > CNAME
 
 touch .
 
