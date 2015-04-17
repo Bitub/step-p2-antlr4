@@ -2,7 +2,7 @@
 <?metadataRepository version='1.1.0'?>
 <repository name='file:/home/travis/build/Bitub/step-p2-antlr4/target/4.5/ - metadata' type='org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository' version='1'>
   <properties size='2'>
-    <property name='p2.timestamp' value='1425046830039'/>
+    <property name='p2.timestamp' value='1429278916034'/>
     <property name='p2.compressed' value='false'/>
   </properties>
 </repository>
