@@ -10,5 +10,4 @@ env:
   - GIT_USER="Sebastian Riemschüssel"
   - GIT_EMAIL="s.riemschuessel@gmail.com"
 after_success:
-  - test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && bash
-  - deploy.sh
+  - test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && bash deploy.sh
