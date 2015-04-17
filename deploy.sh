@@ -3,7 +3,7 @@
 # Stop executing when any errors occur, or when any environment variables that have not been defined are encountered
 set -o errexit -o nounset
 #
-cd target/repository
+cd target/
 #
 git init
 git config user.name "$GIT_USER"
